@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link href="Calculator_Styling.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="Calculator_Events.js"></script>
+	<script src="conversions.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="around">
+    <div class="main_menu" >
+        <a id="menu" ><img src="menu.png" id="menu_img"></a>
+    </div>
+    <div id="sub_menu">
+        <ul id="list">
+            <li style="font-weight: bold; margin-bottom: 7px">CALCULATOR</li>
+
+            <li><a class="menu_sub_items" href="Calculator_Interface.html"> STANDARD CALCULATOR</a></li>
+            <li><a class="menu_sub_items" href="Calculator_Interface.html">SCIENTIFIC CALCULATOR</a></li>
+            <li style="margin-bottom: 10px"><a class="menu_sub_items" href="Calculator_Interface.html">DATA CALCULATION</a></li>
+            <li style="font-weight: bold;  margin-bottom: 7px">CONVERSION</li>
+
+            <li><a class="menu_sub_items" href="Volume.html">VOLUME</a></li>
+            <li><a class="menu_sub_items" href="Length.html">LENGTH</a></li>
+            <li><a class="menu_sub_items" href="Calculator_Interface.html">WEIGHT AND MASS</a></li>
+            <br/>
+            <br/>
+            <br/>
+            <li  style="width: 111%; background-color: grey; position: relative; top:-9.5%; text-align: center; left: -12%; border-radius: 13px"><a id="last_list">Close Menu</a> </li>
+        </ul>
+    </div>
+    <section id="header1">
+        <h1>Volume</h1>
+        <h4>Conversion</h4>
+    </section>
+
+   <section id="background_diff">
+       <div style="padding-left: 10px; padding-top: 30px">
+    <input type="text"  id="litres" style="height: 20%; width: 70%; background-color: transparent; font-size: larger">
+       <p style="font-size: 25px; font-family: Calibri">Litres</p>
+       <br/>
+       <input type="text"  id="Gallons" style="height: 20%; width: 70%; background-color: transparent; font-size: larger">
+       <p style="font-size: 25px; font-family: Calibri">Gallons</p>
+
+       </div>
+
+   </section>
+</div>
+</body>
+</html>

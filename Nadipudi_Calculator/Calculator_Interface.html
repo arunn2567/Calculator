@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link href="Calculator_Styling.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="Calculator_Events.js"></script>
+</head>
+<body>
+<div id="around" style="">
+    <div class="main_menu" >
+    <a id="menu" ><img src="menu.png" id="menu_img"></a>
+    </div>
+    <div id="sub_menu">
+    <ul id="list">
+        <li style="font-weight: bold; margin-bottom: 7px">CALCULATOR</li>
+
+        <li><a class="menu_sub_items" href="Calculator_Interface.html"> STANDARD CALCULATOR</a></li>
+        <li><a class="menu_sub_items" href="Calculator_Interface.html">SCIENTIFIC CALCULATOR</a></li>
+        <li style="margin-bottom: 10px"><a class="menu_sub_items" href="Calculator_Interface.html">DATA CALCULATION</a></li>
+        <li style="font-weight: bold;  margin-bottom: 7px">CONVERSION</li>
+
+        <li><a class="menu_sub_items" href="Volume.html">VOLUME</a></li>
+        <li><a class="menu_sub_items" href="Length.html">LENGTH</a></li>
+        <li><a class="menu_sub_items" href="Calculator_Interface.html">WEIGHT AND MASS</a></li>
+        <br/>
+        <br/>
+        <br/>
+        <li  style="width: 111%; background-color: grey; position: relative; top:1%; text-align: center; left: -12%; border-radius: 13px"><a id="last_list">Close Menu</a> </li>
+    </ul>
+    </div>
+<section id="header1">
+    <h1>STANDARD</h1>
+<h4>CALCULATOR</h4>
+</section>
+<section>
+    <input type="text" id="cal_screen"  value="0"  >
+</section>
+<section>
+    <table id="cal_digits">
+        <tr>
+            <td>
+                <input type="button" style="background-color: grey; color: white"  id="amp" value="%"/>
+            </td>
+            <td>
+                <input type="button" style="background-color: grey; color: white" id="sqrt" value="√"/>
+            </td>
+            <td>
+                <input type="button" style="background-color: grey; color: white" id="sqr" value="x^2"/>
+
+            </td>
+            <td>
+                <input type="button" style="background-color: grey; color: white" id="1by" value="1/x"/>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="num" style="background-color: lightcoral" type="button" id="ce" value="CE"/>
+
+            </td>
+            <td>
+                <input class="num" type="button" style="background-color: lightcoral" id="c" value="C"/>
+            </td>
+            <td>
+                <input class="num" type="button" id="backsp" value="<<<"/>
+
+            </td>
+            <td>
+                <input type="button" style="background-color: darkseagreen" id="div" value="/"/>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="num" type="button" id="sev" value="7"/>
+
+            </td>
+            <td>
+                <input class="num" type="button" id="eig" value="8"/>
+
+            </td>
+            <td>
+                <input class="num" type="button" id="nin" value="9"/>
+
+            </td>
+            <td>
+                <input type="button" style="background-color: darkseagreen" id="mul" value="*"/>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="num" type="button" id="fou" value="4"/>
+
+            </td>
+            <td>
+                <input class="num" type="button" id="fiv" value="5"/>
+
+            </td>
+            <td>
+                <input class="num" type="button" id="six" value="6"/>
+
+            </td>
+            <td>
+                <input type="button" style="background-color: darkseagreen" id="min" value="-"/>
+
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input class="num" type="button" id="one" value="1"/>
+            </td>
+            <td>
+                <input class="num" type="button" id="two" value="2"/>
+
+            </td>
+            <td>
+                <input class="num" type="button" id="thr" value="3"/>
+
+            </td>
+            <td>
+                <input type="button" style="background-color: darkseagreen" id="plu" value="+"/>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input  type="button" style="background-color: slategrey; color: white"  id="plmi" value="+/-" />
+
+            </td>
+            <td>
+                <input class="num" type="button" id="zer" value="0"/>
+
+            </td>
+            <td>
+                <input class="num" type="button" id="dot" value="."/>
+            </td>
+            <td>
+                <input type="button" id="eql" style="background-color: lightcoral" value="="/>
+
+            </td>
+        </tr>
+    </table>
+
+
+</section>
+</div>
+</body>
+</html>
